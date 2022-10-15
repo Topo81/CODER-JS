@@ -9,13 +9,13 @@ do {
     } while ((destino < 1) || (destino > 2))  
 
 do {
-    pago = Number(prompt("Introduce metodo de pago   1-Efectivo     2-Tarjeta de credito (15% de recargo) "));
+    pago = Number(prompt("Introduce metodo de pago  1-Efectivo  2-Tarjeta de credito (15% de recargo) "));
     if (((pago < 1) || (pago > 2))) {
         alert("ERROR:INGRESE UN MODO DE PAGO VALIDO")
     }
 } while ((pago < 1) || (pago > 2)) ;
 
-const buenosaires= 3500  // 
+const buenosaires= 3500  
 const cordoba= 2500
 const efectivo= 1
 const tarjeta= (1+(15/100))
@@ -29,15 +29,14 @@ function procesarDestino(destino){
     switch(destino){
       case 1:
             destino=buenosaires
-            console.log("prueba")
+            
         break
       case 2:
             destino=cordoba
-            console.log("030303456lalalalal")
+            
         break
     default:
-          
-         alert('no es un destino válido') //se supone que esta aca 
+          alert('no es un destino válido') 
     break
         
       }
@@ -63,4 +62,3 @@ function procesarPago(pago){
 function costo(destino,pago){
     alert("Su viaje cuesta " + (destino * pago).toFixed(2))
 }
-
