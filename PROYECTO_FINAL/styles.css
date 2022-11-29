@@ -1,0 +1,109 @@
+body {
+  background-image: url("images/fondo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contenedor {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+
+}
+
+
+.pelicula {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 850px;
+  height: 200px;
+  background-color: whitesmoke;
+  margin: 10px;
+  border: 1px solid black;
+  position: relative;
+  display: table-column;
+  float: left;
+  text-indent: 10px;
+
+}
+
+#carrito {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 450px;
+  min-height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flexbox;
+  text-align: right;
+  margin-left: 1350px;
+  margin-bottom: 1100px;
+  margin-top: -500px;
+  position: fixed
+}
+
+.itemCarrito {
+  table-layout: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 0%;
+  
+}
+
+#nombre {
+
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#btnReset {
+  display: flex;
+  position: fixed;
+  margin-right: 0px;
+  margin-left: 1540px;
+  margin-top: -190px
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  margin-left: 850px;
+  margin-right: auto;
+  margin-top: -94px;
+  display: flex;
+  position: absolute;
+  align-items: baseline;
+  text-align: right;
+  border: black 1px solid;
+}
+
+.toastify{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  color: blanchedalmond;
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(11, 13, 14);
+  color: white;
+  width: 100%;
+  margin-top: 50%;
+
+}
