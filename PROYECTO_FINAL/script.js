@@ -20,6 +20,13 @@ const pegada = async () => {
     }
   }
 
+function resetear(){
+  localStorage.clear() ; location.reload()
+}
+
+
+
+
   let botones = document.getElementsByClassName('boton')
   let carrito = document.getElementById('carrito')
 
@@ -33,11 +40,13 @@ const pegada = async () => {
   for (const boton of botones) {
     boton.onclick = (e) => {
 
+
       Toastify({
         id: "tostada",
         text: "Entrada agregada",
         style: {
           background: "linear-gradient(to right, #6A15F4, #05000D)",
+
         },
         duration: 3000,
 
@@ -107,10 +116,9 @@ const pegada = async () => {
           'Su carrito ha sido borrado',
           'success',
 
-          localStorage.clear(),
-          location.reload()
+          
         )
-
+        resetear()
       }
 
     })
@@ -121,4 +129,3 @@ const pegada = async () => {
 
 }
 pegada()
-
