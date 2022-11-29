@@ -1,8 +1,0 @@
-[
-    { "id": 1, "titulo": "Sonrie", "año": 2022, "aptaPara": "+18", "genero": "Terror", "valor": 450, "disponibles": 10, "imgUrl": "images/Smile.jpg" },
-    { "id": 2, "titulo": "Black Adam", "año": 2022, "aptaPara": "+16", "genero": "Accion", "valor": 450, "disponibles": 15, "imgUrl": "images/Black-Adam.png" },
-    { "id": 3, "titulo": "Black Panter","año": 2022, "aptaPara": "+16", "genero": "Accion", "valor": 450, "disponibles": 5, "imgUrl": "images/Black-Panther.jpg" },
-    { "id": 4, "titulo": "Forest Gump", "año": 1994, "aptaPara": "+18", "genero": "Drama", "valor": 300, "disponibles": 20, "imgUrl": "images/Forest.jpg" },
-    { "id": 5, "titulo": "Guerra de papas", "año": 2015, "aptaPara": "Todo publico", "genero": "Comedia", "valor": 450, "disponibles": 15, "imgUrl": "images/Daddys-Home.jpg" },
-    { "id": 6, "titulo": "Dragon Ball Super", "año": 2022, "aptaPara": "Todo publico", "genero": "Animada", "valor": 450, "disponibles": 5, "imgUrl": "images/Dragon-ball.jpg" }
-]
